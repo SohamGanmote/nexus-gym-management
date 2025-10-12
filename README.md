@@ -43,7 +43,7 @@ You can download the latest setup for **Nexus** here:
 ## Full Video Explanation 🎥
 
 Watch a full walkthrough of **Nexus** on YouTube:
-[Full Nexus Video](YOUR_YOUTUBE_LINK_HERE)
+[Full Nexus Video](https://www.youtube.com/watch?v=CYzYyEHd5zs)
 
 ---
 
