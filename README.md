@@ -36,7 +36,7 @@
 ## Download Setup ⬇️
 
 You can download the latest setup for **Nexus** here:
-[Download Nexus Setup](YOUR_DOWNLOAD_LINK_HERE)
+[Download Nexus Setup](https://drive.google.com/file/d/1Gpdj0U_0kCDNoEk_mxPVajwZhu-GhcOK/view)
 
 ---
 
