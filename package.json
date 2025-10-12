@@ -1,0 +1,68 @@
+{
+	"name": "nexus-gym-management-app",
+	"private": true,
+	"version": "0.0.0",
+	"main": "public/main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"start": "electron .",
+		"postinstall": "electron-builder install-app-deps",
+		"electron:build": "electron-builder"
+	},
+	"build": {
+		"appId": "com.example.nexus-gym-management",
+		"files": [
+			"build/**/*",
+			"public/**/*",
+			"node_modules/**/*",
+			"package.json"
+		],
+		"directories": {
+			"output": "dist"
+		}
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.17.0",
+		"@types/react": "^18.3.18",
+		"@types/react-dom": "^18.3.5",
+		"@vitejs/plugin-react": "^4.3.4",
+		"autoprefixer": "^10.4.20",
+		"electron": "^33.2.1",
+		"electron-builder": "^25.1.8",
+		"eslint": "^9.17.0",
+		"eslint-plugin-react": "^7.37.2",
+		"eslint-plugin-react-hooks": "^5.0.0",
+		"eslint-plugin-react-refresh": "^0.4.16",
+		"globals": "^15.14.0",
+		"lucide-react": "^0.469.0",
+		"postcss": "^8.4.49",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"tailwindcss": "^3.4.17",
+		"vite": "^6.0.5"
+	},
+	"dependencies": {
+		"@headlessui/react": "^2.1.2",
+		"@tanstack/react-query": "^5.51.23",
+		"axios": "^1.7.2",
+		"bcryptjs": "^3.0.2",
+		"gh-pages": "^6.2.0",
+		"highcharts": "^11.4.8",
+		"highcharts-react-official": "^3.2.1",
+		"html2canvas": "^1.4.1",
+		"jwt-decode": "^4.0.0",
+		"lucide-react": "^0.414.0",
+		"prop-types": "^15.8.1",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-helmet": "^6.1.0",
+		"react-router-dom": "^6.25.1",
+		"react-select": "^5.8.0",
+		"react-sweetalert2": "^0.6.0",
+		"react-toastify": "^10.0.5",
+		"sqlite3": "^5.1.7",
+		"uuid": "^13.0.0"
+	}
+}

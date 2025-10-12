@@ -1,0 +1,83 @@
+body {
+	overflow-y: scroll;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.gradient-button {
+	background: linear-gradient(
+		90deg,
+		var(--gradient-start),
+		var(--gradient-middle),
+		var(--gradient-end)
+	);
+	transition: 1s;
+}
+
+.gradient-button:hover {
+	background: linear-gradient(
+		90deg,
+		var(--hover-gradient-start),
+		var(--hover-gradient-middle),
+		var(--hover-gradient-end)
+	);
+}
+
+.navlink:hover {
+	color: var(--primary-color) !important;
+}
+
+.text-primary,
+.border-primary {
+	color: var(--primary-color) !important;
+}
+
+.bg-primary {
+	background-color: var(--primary-color);
+}
+
+.border-primary {
+	border: 1px solid var(--primary-color) !important;
+}
+
+.fill-primary {
+	fill: var(--primary-color);
+}
+
+.gradient-text {
+	background: -webkit-linear-gradient(
+		90deg,
+		var(--gradient-start) 0%,
+		var(--gradient-middle) 50%,
+		var(--gradient-end) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gradient-div {
+	background: linear-gradient(
+		90deg,
+		var(--gradient-start) 0%,
+		var(--gradient-middle) 50%,
+		var(--gradient-end) 100%
+	);
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--primary-color);
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.slide-in {
+		@apply transform transition-transform duration-300;
+	}
+
+	.slide-out {
+		@apply transform -translate-y-full transition-transform duration-300;
+	}
+}
+
+::selection {
+	background-color: black;
+	color: white;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}

@@ -1,0 +1,16 @@
+"build": {
+	"files": [
+		"build/**/*",
+		"public/**/*",
+		"node_modules/**/*",
+		"package.json"
+	]
+},
+
+"postinstall": "electron-builder install-app-deps",
+"electron:build": "electron-builder",
+
+npm install --save-dev electron-builder
+npm install --save sqlite3
+npm run postinstall
+npm run electron:build
